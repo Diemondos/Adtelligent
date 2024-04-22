@@ -20,6 +20,6 @@ def test_login_email():
     headers = {'Authorization': 'Token token="6e487e7d792ebefc08a0d3fa63a7aac4"',
                'User-Token': 'Y2wEDOOiyID6luAtxILWdvJGNDNY9I0Td0L16UeyqMlGUcZqd0K0wckHKe8QzlyqBWdsOVOdDDYYAC01/EyoIg==',
                'Content-Type': 'application/json'}
-    response = requests.get('https://favqs.com//api/users/:diemond', headers=headers)
+    response = requests.get('https://favqs.com//api/users/diemond', headers=headers)
     print(response.text)
     print(response.status_code)
